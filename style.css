@@ -6,7 +6,7 @@ body {
 	background-attachment: fixed;
 }
 
-div {
+main {
 	width: 600px;
 	background: white;
 	padding-left: 50px;
@@ -58,7 +58,14 @@ th, td {
 	font-family: 'Roboto', sans-serif;
     padding: 5px;
 }
-  
+ 
+a:link {
+    color: #0099cc;
+}
+
+a:visited {
+    color: #339966;
+}
   
 @media screen and (max-width: 939px) {
   body {
@@ -67,8 +74,15 @@ th, td {
   }
 }
 
-section > footer {
-	bottom: 0px;
+footer {
 	text-align: center;
-	background-color: 
+	background-color: #927762;
+	width: 600px;
+	margin: auto;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+#bottom {
+	color: white;
 }
