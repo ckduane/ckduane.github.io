@@ -1,3 +1,74 @@
 body {
-	background: blue;
+	margin-left: auto;
+	background-image: url("https://static.pexels.com/photos/4805/hiking-path-way.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+div {
+	width: 600px;
+	background: white;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	margin: auto;
+}
+
+h1 {
+	font-family: 'Slabo 27px', serif;
+	font-size: 27px;
+	padding-top: 65px;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 25px;
+}
+
+h3 {
+	font-family: 'Slabo 27px', serif;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+
+}
+
+ul {
+	font-family: 'Roboto', sans-serif;
+}
+
+img {
+	width: 400px;
+}
+
+.cite {
+	font-family: 'Slabo 27px', serif;
+	font-size: 12px;
+	font-style: italic;
+}
+
+table {
+	border-style: solid;
+	width: 500px;
+}
+
+th, td {
+	font-family: 'Roboto', sans-serif;
+    padding: 5px;
+}
+  
+  
+@media screen and (max-width: 939px) {
+  body {
+	background-color: white;
+	background-image: none;
+  }
+}
+
+section > footer {
+	bottom: 0px;
+	text-align: center;
+	background-color: 
 }
