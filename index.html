@@ -40,20 +40,20 @@
 		</div>
 		<div id="contact">
 			<h2>Contact</h2>
-			<form action="contact.php" method="post">
-		    <label>Name</label>
-		    <input type="text" name="cf_name">
+			<form role="form" method="post" action="index.php">
+			<label for="name">Name</label>
+			<input type="text" id="name" name="name" required>
 
-		    <label>Email</label>
-		    <input type="text" name="cf_email">
+			<label for="email" >Email</label>
+			<input type="email" id="email" name="email" required>
 
-		    <label>Message</label>
-		    <textarea name="cf_message"></textarea>
+			<label for="message" >Message</label>
+			<textarea name="message" required></textarea>
 
-		    <input type="submit" value="Send">
-			</form>
+			<input id="submit" name="submit" type="submit" value="Send">
+			</form> 
 
-			<iframe height="574" allowTransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none"  src="https://ckduane.wufoo.com/embed/zx8ck5n1wcl6oj/"><a href="https://ckduane.wufoo.com/forms/zx8ck5n1wcl6oj/">Fill out my Wufoo form!</a></iframe><div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;"></div>
+			<iframe height="700" allowTransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none"  src="https://ckduane.wufoo.com/embed/zx8ck5n1wcl6oj/"><a href="https://ckduane.wufoo.com/forms/zx8ck5n1wcl6oj/">Fill out my Wufoo form!</a></iframe><div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;"></div>
 		</div>
 		
 	</main>
