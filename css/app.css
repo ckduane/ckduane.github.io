@@ -47,7 +47,7 @@ nav a:active {
 }
 
 #contact, iframe {
-	background: #22bb5b;
+	background: #22bb5b !important;
 }
 
 .screenshots {
