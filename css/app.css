@@ -43,13 +43,17 @@ nav a:active {
 	background: #FDCA40;
 	display: flex;
 	flex-wrap: wrap;
-
 }
 
-#contact, iframe {
-	background: #22bb5b !important;
+#contact {
+	background: #22bb5b;
 }
 
 .screenshots {
 	width: 100%;
+}
+
+.fa {
+	color: white;
+	
 }
