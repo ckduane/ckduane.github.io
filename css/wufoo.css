@@ -1,0 +1,29 @@
+#logo, #header {
+	display: none;
+}
+
+textarea, input {
+	box-sizing: border-box !important;
+  width: 100% !important;
+  margin: 0 0 1rem !important;
+  padding: .5rem !important;
+  border: 1px solid #cacaca !important;
+  background-color: #fefefe !important;
+  box-shadow: inset 0 1px 2px hsla(0,0%,4%,.1) !important;
+  font-size: 1rem !important;
+  font-weight: 400 !important;
+  color: #0a0a0a !important;
+}
+
+input {
+  height: 2.4375rem !important;
+}
+
+li.focused {
+	background: #22bb5b !important;
+}
+
+form, #container {
+	background: #22bb5b;
+	font-family: inherit;
+}
