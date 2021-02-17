@@ -47,13 +47,13 @@ i.fa, i.fas {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	z-index: -1;
-	transition: all .3s ease-in-out;
+	transition: all .2s ease-in;
 }
 
-.hover-link img {
-	transition: all .3s ease-in-out;
+.hover-link img, i {
+	transition: all .2s ease-in;
 }
-.hover-link:hover img {
+.hover-link:hover img, i:hover {
 	transform: translateY(-10px);
 	transition: all .3s ease-in-out;
 	box-shadow: 0 1rem 3rem rgba(0,0,0,.175) !important;
