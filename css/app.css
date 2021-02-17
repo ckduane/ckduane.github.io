@@ -56,7 +56,7 @@ i.fa, i.fas {
 .hover-link:hover img {
 	transform: translateY(-10px);
 	transition: all .3s ease-in-out;
-	box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+	box-shadow: 0 1rem 3rem rgba(0,0,0,.175) !important;
 }
 
 @media screen and (min-width: 660px) {
